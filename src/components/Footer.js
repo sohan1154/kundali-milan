@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link} from 'react-router-dom';
 
 function Footer() {
     return (
@@ -67,11 +67,11 @@ function Footer() {
                 <div className="col-lg-12" >
                 <h2>हमारा अनुसरण इस पर कीजिये</h2>
                 <ul className="social-icon">
-                <li className="facebook hvr-pulse"><a href="#"><i className="fa fa-facebook-f" /></a></li>
-                <li className="twitter hvr-pulse"><a href="#"><i className="fa fa-twitter" /></a></li>
-                <li className="linkedin hvr-pulse"><a href="#"><i className="fa fa-linkedin" /></a></li>
-                <li className="google-plus hvr-pulse"><a href="#"><i className="fa fa-google-plus" /></a></li>
-                <li className="youtube hvr-pulse"><a href="#"><i className="fa fa-youtube" /></a></li>
+                <li className="facebook hvr-pulse"><a href="https://www.facebook.com/kaulacharyajagdishsharma/"><i className="fa fa-facebook-f" /></a></li>
+                <li className="twitter hvr-pulse"><a><i className="fa fa-twitter" /></a></li>
+                <li className="linkedin hvr-pulse"><a><i className="fa fa-linkedin" /></a></li>
+                <li className="google-plus hvr-pulse"><a><i className="fa fa-google-plus" /></a></li>
+                <li className="youtube hvr-pulse"><a><i className="fa fa-youtube" /></a></li>
                 </ul>
                 </div>
                 </div>
