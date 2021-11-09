@@ -86,9 +86,10 @@ class Matching extends React.Component {
                 <div className="container">
                     <div className="col-md-8 col-md-offset-2">
                         <div className="heading">
-                            <h2>KUNDALI MATCHMAKING</h2>
+                            <h2>कुंडली मिलान</h2>
                             <div className="line" />
-                            <p><span><strong>Vedic</strong></span> astrology suggests to check 36 Gun Milan by both names as both have impact on native's life. For example, if horoscope compatibility is not favorable by birth names, you can use prevalent names</p>
+                            <p>वैदिक ज्योतिष दोनों नामों से 36 गुहं मिलन की जाँच करने का सुझाव देता है क्योंकि दोनों का प्रभाव जातक के जीवन पर पड़ता है।
+                                उदाहरण के लिए, यदि जन्म के नामों से कुंडली अनुकूलता अनुकूल नहीं है, तो आप प्रचलित नामों का उपयोग कर सकते हैं</p>
                         </div>
                     </div>
                     <div className="container">
@@ -104,7 +105,7 @@ class Matching extends React.Component {
                                 {this.state.errors.girl_name && <span className="error">{this.state.errors.girl_name}</span>}
                             </div>
                             <div className="col-lg-12">
-                                <button id="sbutton" type="button" className="btn btn-secondary btn-lg" onClick={this.handleClick} >Submit</button>
+                                <button id="sbutton" type="button" className="btn btn-secondary btn-lg" onClick={this.handleClick} >अभी गणना करें</button>
                             </div>
                         </form>
                     </div>

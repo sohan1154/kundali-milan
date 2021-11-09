@@ -1,43 +1,41 @@
 import React from 'react'
 
-function Faqs(){
-    return(
+function Faqs() {
+    return (
         <>
-        <section id="pricing">
+            <section id="pricing">
                 <div className="container">
                     <div className="col-md-8 col-md-offset-2">
                         <div className="heading">
-                            <h2>FREQUENTLY ASKED QUESTIO<span>NS</span></h2>
+                            <h2>अक्सर पूछे जाने वाले प्रश्न</h2>
                             <div className="line" />
-                            <p>Here are the frequently asked questions.</p>
+                            <p>यहाँ कुछ अक्सर पूछे जाने वाले प्रश्न हैं।.</p>
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-sm-6 col-lg-12" style={{ textAlign: 'left', fontFamily:"fantasy" }}>
-                            <h3 ><span>Q1.</span> What is marriage matching in astrology?</h3>
-                            <p>Mostly, people ask the astrologer for matrimony horoscope to know their Guna for the best astrology chart match, so that the couple will not survive with any incompatibility and misfortune.
-                                Janam Kundli Milan by name is the proven astrological method for marriage matching prediction or love prophecy.
-                                This is performed by two ways, one is Kundli matching by name and another is horoscope match by date of birth. If you know your birth names, then you can search free Kundali chart compatibility by names only, without the birth time.
-                                The result will as same as you get with birthday.</p>
-                                <br/>
-                            <h3><span>Q2.</span> How the name astrology fortune telling works?</h3>
-                            <p>
-                                If you are thinking, how it predicts my future by name? The Namology Predictor uses the initials of name and find out expression and future predictions.
-                                This name meaning astrology method uses your rising sign and predicts accordingly.
-                                This is the quickest method to find online future predictions for free, without knowing the birth date or time.
-                                Indian astrology recommends this method to search general and daily routine forecast also. This tool can analysis traits and characteristic predictions of your friends, lover or any family member, just need to use their names. Even, here you can use names of bride and groom to
+                        <div className="col-sm-6 col-lg-12" style={{ textAlign: 'left', fontFamily: "fantasy" }}>
+                            <h3 ><span>Q1.</span> ज्योतिष में विवाह मिलान क्या है?</h3>
+                            <p>अधिकतर, लोग ज्योतिषी से विवाह कुंडली के लिए सर्वश्रेष्ठ ज्योतिष चार्ट मैच के लिए अपना गुण जानने के लिए कहते हैं, ताकि युगल किसी भी असंगति और दुर्भाग्य के साथ जीवित न रहे।
+                                नाम से जन्म कुंडली मिलन विवाह मिलान भविष्यवाणी या प्रेम भविष्यवाणी के लिए सिद्ध ज्योतिषीय विधि है।
+                                यह दो तरीकों से किया जाता है, एक नाम से कुंडली मिलान और दूसरा जन्म तिथि से कुंडली मिलान। यदि आप अपने जन्म के नाम जानते हैं, तो आप जन्म के समय के बिना, केवल नामों से मुफ्त कुंडली चार्ट संगतता खोज सकते हैं।
+                                परिणाम वैसा ही होगा जैसा आपको जन्मदिन के साथ मिलता है।</p>
+                            <br />
+                            <h3><span>Q2.</span> ज्योतिष भाग्य बताने वाला नाम कैसे काम करता है?</h3>
+                            <p>अगर आप सोच रहे हैं कि यह नाम से मेरे भविष्य की भविष्यवाणी कैसे करता है? नामोलॉजी प्रेडिक्टर नाम के आद्याक्षर का उपयोग करता है और अभिव्यक्ति और भविष्य की भविष्यवाणियों का पता लगाता है।
+                                इस नाम का अर्थ है ज्योतिष पद्धति आपके बढ़ते चिन्ह का उपयोग करती है और उसी के अनुसार भविष्यवाणी करती है।
+                                जन्म तिथि या समय जाने बिना, भविष्य की ऑनलाइन भविष्यवाणियां मुफ्त में खोजने का यह सबसे तेज़ तरीका है।
+                                भारतीय ज्योतिष सामान्य और दैनिक दिनचर्या के पूर्वानुमानों को भी खोजने के लिए इस पद्धति की सिफारिश करता है। यह उपकरण आपके दोस्तों, प्रेमी या परिवार के किसी सदस्य के लक्षणों और विशिष्ट भविष्यवाणियों का विश्लेषण कर सकता है, बस उनके नामों का उपयोग करने की आवश्यकता है। यहां तक ​​कि, यहां आप वर और वधू के नामों का उपयोग कर सकते हैं
                             </p>
-                            <br/>
-                            <h3><span>Q3.</span> What is in a name according to astrology?</h3>
-                            <p>
-                            Many of us know, "What's in a name", the famous quote of Shakespeare. And, Indian astrology says names can describe a pattern of life and the ways of the goal. The forecast can be made through it. And, this is the most important factor in numerology also. The difference between numerology and astrology is, 
-                            name numerology uses all alphabets to predict and astrology uses first initials of the name and predicts according to Moon sign.
+                            <br />
+                            <h3><span>Q3.</span> ज्योतिष के अनुसार नाम में क्या है?</h3>
+                            <p>हम में से बहुत से लोग जानते हैं, "नाम में क्या है", शेक्सपियर का प्रसिद्ध उद्धरण। और, भारतीय ज्योतिष कहता है कि नाम जीवन के एक पैटर्न और लक्ष्य के तरीकों का वर्णन कर सकते हैं। इसके माध्यम से पूर्वानुमान लगाया जा सकता है। और, यह अंक ज्योतिष में भी सबसे महत्वपूर्ण कारक है। अंक ज्योतिष और ज्योतिष में अंतर है,
+                                नाम अंक ज्योतिष भविष्यवाणी करने के लिए सभी अक्षरों का उपयोग करता है और ज्योतिष नाम के पहले अक्षर का उपयोग करता है और चंद्रमा के अनुसार भविष्यवाणी करता है।
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
-            </>
+        </>
     )
 }
 export default Faqs;

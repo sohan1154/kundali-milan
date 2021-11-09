@@ -5,11 +5,7 @@ import Home from './Home';
 import * as GlobalProvider from '../providers/globals/Global';
 import Aboutus from './Aboutus';
 
-
-
 function Header(props){
-
-  
 
 const Home = () => {
     GlobalProvider.Home();
@@ -31,12 +27,12 @@ const contactUS = () => {
           {/* Collect the nav links, forms, and other content for toggling */}
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul className="nav navbar-nav"  > 
-              <li ><Link2  to="home" className="scroll active1" >Home</Link2></li>
-              <li><Link2 className="scroll " to='about' >About</Link2></li>
-              <li><Link2 className="scroll" to="service">Kundali Matchmaking</Link2></li>
-              <li><Link2 className="scroll" to="pricing">Faqs</Link2></li>
-              <li><Link2 className="scroll" to="features">Zodiac</Link2></li>
-              <li><Link2 className="scroll" to="contact" >Contact</Link2></li>
+              <li ><Link2  to="home" className="scroll active1" >होम</Link2></li>
+              <li><Link2 className="scroll " to='about' >हमारे बारे में</Link2></li>
+              <li><Link2 className="scroll" to="service">कुंडली मिलान</Link2></li>
+              <li><Link2 className="scroll" to="pricing">अक्सर पूछे जाने वाले प्रश्न</Link2></li>
+              <li><Link2 className="scroll" to="features">राशि</Link2></li>
+              <li><Link2 className="scroll" to="contact" >संपर्क करें</Link2></li>
             </ul>
           </div>
           {/* /.navbar-collapse */}

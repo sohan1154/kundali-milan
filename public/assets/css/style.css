@@ -170,6 +170,10 @@ span {
 	border:1px solid #e73131;
 	width:25%;
 }
+.long-line {
+	border:1px solid #e73131;
+	width:70%;
+}
 a:hover, a:focus {
 	text-decoration:none;
 }
@@ -565,6 +569,9 @@ ul.nav li.active a:before {
 	font-weight:bolder;
 }
 #features .tab-content .line {
+	float:left;
+}
+#features .tab-content .long-line {
 	float:left;
 }
 .tab {

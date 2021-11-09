@@ -2,15 +2,11 @@ import React from 'react'
 import Header from './Header';
 import Banner from './Banner';
 import Aboutus from './Aboutus';
-
 import Matching from './Matching';
-import Features from './Features';
 import Faqs from './Faqs';
-
-import Team from './Team';
-
 import Comments from './Comments';
 import Footer from './Footer';
+import Zodiac from './Zodiac';
 
 function Home(props) {
     
@@ -20,7 +16,7 @@ function Home(props) {
             <Banner />
             <Aboutus />
             <Matching />
-            <Features />
+            <Zodiac />
             <Faqs />
             <Comments />
             <Footer />

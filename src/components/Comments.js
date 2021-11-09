@@ -1,39 +1,59 @@
 import React from 'react';
 
-function Comments(){
-    return(
+function Comments() {
+
+
+
+    return (
         <section id="testimonials" className="parallex">
-        <div className="container">
-            <div className="quote"> <i className="fa fa-quote-left" /> </div>
-            <div className="clearfix" />
-            <div className="slider-text">
-                <div id="owl-testi" className="owl-carousel owl-theme">
-                    <div className="item">
-                        <div className="col-md-10 col-md-offset-1"> <img src="assets/images/guru/01.jpg" className="img-circle" alt />
-                        <h5>Shri Shri Ravi Shankar (श्री श्री रवि शंकर)</h5>
-                            <h6>Ravi Shankar is an Indian yoga guru, a spiritual leader. He is frequently referred to as "Sri Sri", Guru ji, or Gurudev. From around the mid 1970s, he worked as an apprentice under Mahesh Yogi, the founder of Transcendental Meditation.</h6>
+            <div className="container">
+                <div className="quote"> <i className="fa fa-quote-left" /> </div>
+                <div className="clearfix" />
+                <div className="slider-text">
+                    <div id="owl-testi" className="owl-carousel owl-theme">
+                        <div className="item">
+                            <div className="col-md-10 col-md-offset-1"> <img src="assets/images/guru/01.jpg" className="img-circle" alt />
+                                <h5>कौलाचार्य जगदीशानंद तीर्थ</h5>
+                                <h6>कौलाचार्य जगदीशनंद तीर्थ के अनुसार ज्योतिष क्या है? -
+                                    ज्योतिष पहली बार में चौंकाने वाला हो सकता है, क्योंकि इसमें एक अलग तरह का ज्ञान शामिल है। किसी भी जन्म कुंडली के तीन भाग होते हैं (अपने चार्ट के लिए यहां क्लिक करें) - ग्रह, राशि और घर।
+                                    ज्योतिष में एक सम्मिश्रण होता है जिसमें वे तीनों शामिल होते हैं। जैसे-जैसे आप और सीखते हैं, आपकी समझ गहरी होती जाती है।
+                                    ग्रहों, संकेतों और घरों के बारे में जानने के बाद, पहलुओं को देखने का समय आ गया है। यह आपकी जन्म कुंडली के खिलाड़ियों के बीच का संबंध है।</h6>
+                            </div>
                         </div>
-                    </div>
-                    <div className="col-md-10 col-md-offset-1"> <img src="assets/images/guru/02.jpg" className="img-circle" alt />
-                    <h5>Sadhguru (सद्गुरु)</h5>
-                        <h6>Jagadish Vasudev, venerated as Sadhguru, is an Indian yoga guru and author. Jaggi Vasudev earned a bachelor's degree in English from the University of Mysore and has been teaching yoga in southern India since 1982.</h6>
-                    </div>
-                    <div className="col-md-10 col-md-offset-1"> <img src="assets/images/guru/04.jpg" className="img-circle" alt />
-                    <h5>BK Shivani (बीके शिवानी)</h5>
-                        <h6>Shivani Verma, better known as BK Shivani, Brahma Kumari Shivani, or Sister Shivani, is a teacher in the Brahma Kumaris spiritual movement in India.</h6>
-                    </div>
-                    <div className="col-md-10 col-md-offset-1"> <img src="assets/images/guru/03.jpg" className="img-circle" alt />
-                    <h5>Baba Ramdev (रामदेव)</h5>
-                        <h6>Swami Ramdev, also known as Baba Ramdev, is an Indian yoga guru and businessman, primarily known for his popularising Yoga and Ayurveda in India.</h6>
-                    </div>
-                    <div className="col-md-10 col-md-offset-1"> <img src="assets/images/guru/05.jpg" className="img-circle" alt />
-                    <h5>Sadhvi Rithambara (साध्वी ऋतंबर)</h5>
-                        <h6>Sadhvi Nisha Rithambara is a Hindu nationalist ideologue and the founder-chairperson of Durga Vahini.</h6>
+                        <div className="item">
+                            <div className="col-md-10 col-md-offset-1"> <img src="assets/images/guru/01.jpg" className="img-circle" alt />
+                                <h5>कौलाचार्य जगदीशानंद तीर्थ</h5>
+                                <h6>एक सहस्त्र करोड़ शिवलिंगों के यथाविधि पूजन करने से जो फल प्राप्त होता है उससे भी करोड़ो गुना अधिक फल रस लिंग (पारद के महादेव के पूजन से प्राप्त होता है।</h6>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div className="col-md-10 col-md-offset-1"> <img src="assets/images/guru/01.jpg" className="img-circle" alt />
+                                <h5>कौलाचार्य जगदीशानंद तीर्थ</h5>
+                                <h6>स्वयं महर्षि वशिष्ठ का अनुभव है-<br />
+                                    पारदेश्वर देवं वे पूज्य सिध्दि लभेन् नर ।
+                                    ज्ञान विज्ञान सौभाग्य प्राप्यते भव दर्शनात्॥
+                                    मैंने जीवन में जो भी सिद्धियां प्राप्त की है उसका एकमात्र श्रेय एकादश रुद्रों का पूजन व पारदेश्वर की स्थापना की व उसका नित्य -पूजन हैं।</h6>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div className="col-md-10 col-md-offset-1"> <img src="assets/images/guru/01.jpg" className="img-circle" alt />
+                                <h5>कौलाचार्य जगदीशानंद तीर्थ</h5>
+                                <h6>इस जीवन में धन तो आता-जाता रहता है,परंतु जीवन का सौभाग्य उदय होने पर ही व्यक्ति सही निर्णय कर पाता है और प्रयत्न करके अपने घर  में  पारद शिवलिंग स्थापित कर पाता है,
+                                    जिससे यह तो पूर्ण भोग और मोक्ष प्राप्त करता ही है,उसकी आगे की पीढ़िया भी उसके प्रति कृतज्ञ रहती है , जिसकी वजह से उसके  घर में भी पारद शिवलिंग  स्थापित हो सका |
+                                    आज के इस युग में भी पारद शिवलिंग एक चमत्कार है, एक श्रेष्ठ साधना है एक आश्चर्यजनक सफलतादायक उपाय है।</h6>
+                            </div>
+                        </div>
+                        <div className="item">
+                            <div className="col-md-10 col-md-offset-1"> <img src="assets/images/guru/01.jpg" className="img-circle" alt />
+                                <h5>कौलाचार्य जगदीशानंद तीर्थ</h5>
+                                <h6>जिसके घर में पारद शिवलिंग होता है वह घर स्वयं सिद्ध तीर्थ के सामान माना जाता है और उसमें रहने वालों के समस्त कार्य सुविधापूर्वक सम्पन्न होते रहते हैं। ऐसे व्यक्ति अपने जीवन में पूर्ण भोग भोगते देखते गए हैं,
+                                    ऐसे घरों से नित्य मंगलदायक समाचार प्राप्त होते रहते हैं। उनके जीवन में अभाव या न्यूनता नहीं रहती, अपितु उनकी सारी इच्छाएं स्वत: ही पूरी होती रहती हैं</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
     );
 }
 export default Comments;
