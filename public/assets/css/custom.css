@@ -1,0 +1,150 @@
+#validationDefault01{
+    border-radius: 10px;
+}
+#validationDefault02{
+    border-radius: 10px;
+}
+.form-label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: large;
+}
+#sbutton{
+    background-color: rgb(190, 25, 25);
+    color: white;
+    margin-top: 20px;
+    outline: none;
+
+    
+}
+#sbutton:hover{
+    background-color: red;
+}
+
+#features .nav-tabs img{
+    width: 60px;
+    height: 65px;
+}
+
+  
+  .card {
+    border: border-box;
+    border-radius: 8px;
+    height: auto;
+    width: 400px;
+    background-color: rgb(60, 60, 121);
+    padding: 30px 25px;
+    box-shadow: 0px 10px 20px #000000;
+    margin: auto; 
+    margin-right: -55px;
+    margin-top: 15px;
+  }
+  
+  .text span{
+      color: white;
+      font-weight: 400;
+  }
+  
+  #useremail {
+    border-radius: 45px;
+    padding-left: 52px;
+    padding-right: 52px;
+    margin-top: 10px;
+    outline: none;
+  }
+
+  #submit1 {
+    border-radius: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+  }
+  #useremail {
+    background-color: #1B162C;
+    border: solid #1B162C;
+    color: #e9b55c;
+  }
+  
+  #submit1 {
+    background-color: #614CE6;
+    border: solid #614CE6;
+    color: white;
+    margin-left: -50px;
+  }
+  
+  ::selection {
+    background-color: #614CE6;
+  }
+
+  #footer-down{
+    background-color:rgba(228, 11, 11, 0.9);
+      
+  }
+
+  #footer-down .container h2{
+      color: white;
+  }
+  #footer-down h3{
+    color: white;
+}
+  #footer-down p{
+    color: white;
+}
+#footer-down ul li a i{
+    background-color: white;
+
+}
+#footer-down i{
+    color: white;
+}
+ #menu .navbar .nav li:hover a {
+  color: #070707!important;
+  font-weight: bold;
+}
+
+#menu .navbar-nav li >a.active1 {
+  color: #110f0f!important;
+  font-weight: bold;
+} 
+
+#testimonials #owl-testi h5{
+      text-transform: uppercase;
+       font-weight: bold;
+       font-size: 30px;
+       font-family: 'Times New Roman', Times, serif;
+      color: rgb(209, 23, 23);
+ }
+ #testimonials #owl-testi h6{
+
+  color: #eeebeb;
+  font-weight: 500;
+  font-size: 17px;
+ }
+
+#instafeed .heading h2{
+  text-align:center;
+}
+
+#instafeed .heading p{
+  text-align:center;
+}
+#instafeed{
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+
+}
+#send-button {
+	color: #e73131;
+	border: 2px solid #e73131;
+	padding: 2% 0%;
+	font-size: 15px;
+}
+#send-button:hover {
+	background:#e73131;
+	color:#fff;
+	transition:all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
